@@ -1,0 +1,76 @@
+System.Net Information: 0 : [16428] Current OS installation type is 'Client'.
+System.Net Verbose: 0 : [25556] Entering WebRequest::Create(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104024 ... and Bill Amount='')
+System.Net Verbose: 0 : [25556] Entering HttpWebRequest#6948522::HttpWebRequest(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104024 ... and Bill Amount=''#-1209548978)
+System.Net Information: 0 : [25556] RAS supported: True
+System.Net Verbose: 0 : [25556] Exiting HttpWebRequest#6948522::HttpWebRequest() 
+System.Net Verbose: 0 : [25556] Exiting WebRequest::Create() 	-> HttpWebRequest#6948522
+System.Net Verbose: 0 : [25556] Entering HttpWebRequest#6948522::GetResponse()
+System.Net Verbose: 0 : [25556] Entering ServicePoint#30141430::ServicePoint(api.infobuzzer.net:443)
+System.Net Information: 0 : [25556] Associating HttpWebRequest#6948522 with ServicePoint#30141430
+System.Net Information: 0 : [25556] Associating Connection#8269121 with HttpWebRequest#6948522
+System.Net Information: 0 : [25556] Connection#8269121 - Created connection from 192.168.0.103:12374 to 104.21.68.214:443.
+System.Net Information: 0 : [25556] TlsStream#63527636::.ctor(host=api.infobuzzer.net, #certs=0, checkCertificateRevocationList=False, sslProtocols=Default)
+System.Net Information: 0 : [25556] Associating HttpWebRequest#6948522 with ConnectStream#44838585
+System.Net Information: 0 : [25556] HttpWebRequest#6948522 - Request: GET /v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill%20For%20Job%20ID%20-%20%20Has%20Been%20Generate%20Succesfully%20with%20Bill%20No%20-%20V-104024%20...%20and%20Bill%20Amount='' HTTP/1.1
+
+System.Net Information: 0 : [25556] ConnectStream#44838585 - Sending headers
+{
+Host: api.infobuzzer.net
+Connection: Keep-Alive
+}.
+System.Net Information: 0 : [25556] SecureChannel#37849649::.ctor(hostname=api.infobuzzer.net, #clientCertificates=0, encryptionPolicy=RequireEncryption)
+System.Net Information: 0 : [25556] Enumerating security packages:
+System.Net Information: 0 : [25556]     Negotiate
+System.Net Information: 0 : [25556]     NegoExtender
+System.Net Information: 0 : [25556]     Kerberos
+System.Net Information: 0 : [25556]     NTLM
+System.Net Information: 0 : [25556]     TSSSP
+System.Net Information: 0 : [25556]     pku2u
+System.Net Information: 0 : [25556]     CloudAP
+System.Net Information: 0 : [25556]     WDigest
+System.Net Information: 0 : [25556]     Schannel
+System.Net Information: 0 : [25556]     Microsoft Unified Security Protocol Provider
+System.Net Information: 0 : [25556]     SFAP
+System.Net Information: 0 : [25556]     Default TLS SSP
+System.Net Information: 0 : [25556]     CREDSSP
+System.Net Information: 0 : [25556] SecureChannel#37849649 - Left with 0 client certificates to choose from.
+System.Net Information: 0 : [25556] SecureChannel#37849649::.AcquireClientCredentials, new SecureCredential() (flags=(ValidateManual, NoDefaultCred, SendAuxRecord), m_ProtocolFlags=(Ssl3Client, Tls10Client), m_EncryptionPolicy=RequireEncryption)
+System.Net Information: 0 : [25556] AcquireCredentialsHandle(package = Microsoft Unified Security Protocol Provider, intent  = Outbound, scc     = System.Net.SecureCredential)
+System.Net Information: 0 : [25556] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = (null), targetName = api.infobuzzer.net, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [25556] InitializeSecurityContext(In-Buffer length=0, Out-Buffer length=120, returned code=ContinueNeeded).
+System.Net Information: 0 : [25556] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 25482617350:11ead, targetName = api.infobuzzer.net, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [25556] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=0, returned code=Unsupported).
+System.Net Error: 0 : [25556] Exception in HttpWebRequest#6948522:: - The request was aborted: Could not create SSL/TLS secure channel..
+System.Net Error: 0 : [25556] Exception in HttpWebRequest#6948522::GetResponse - The request was aborted: Could not create SSL/TLS secure channel..
+System.Net Verbose: 0 : [12484] Entering WebClient#41088216::DownloadString(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104025 ... and Bill Amount=''#1140339800)
+System.Net Verbose: 0 : [12484] Entering WebClient#41088216::DownloadData(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104025 ... and Bill Amount=''#1140339800)
+System.Net Verbose: 0 : [12484] Entering WebRequest::Create(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104025 ... and Bill Amount='')
+System.Net Verbose: 0 : [12484] Entering HttpWebRequest#41314985::HttpWebRequest(https://api.infobuzzer.net/v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill For Job ID -  Has Been Generate Succesfully with Bill No - V-104025 ... and Bill Amount=''#1140339800)
+System.Net Verbose: 0 : [12484] Exiting HttpWebRequest#41314985::HttpWebRequest() 
+System.Net Verbose: 0 : [12484] Exiting WebRequest::Create() 	-> HttpWebRequest#41314985
+System.Net Verbose: 0 : [12484] Entering HttpWebRequest#41314985::GetResponse()
+System.Net Information: 0 : [12484] Associating HttpWebRequest#41314985 with ServicePoint#30141430
+System.Net Information: 0 : [12484] Associating Connection#18879679 with HttpWebRequest#41314985
+System.Net Information: 0 : [12484] Connection#18879679 - Created connection from 192.168.0.103:12407 to 172.67.198.243:443.
+System.Net Information: 0 : [12484] TlsStream#28309350::.ctor(host=api.infobuzzer.net, #certs=0, checkCertificateRevocationList=False, sslProtocols=Tls)
+System.Net Information: 0 : [12484] Associating HttpWebRequest#41314985 with ConnectStream#6906385
+System.Net Information: 0 : [12484] HttpWebRequest#41314985 - Request: GET /v3.1/TransmitSMS?username=nm@synergyinterface.com&password=info@Pass&to=01784932050&text=Bill%20For%20Job%20ID%20-%20%20Has%20Been%20Generate%20Succesfully%20with%20Bill%20No%20-%20V-104025%20...%20and%20Bill%20Amount='' HTTP/1.1
+
+System.Net Information: 0 : [12484] ConnectStream#6906385 - Sending headers
+{
+Host: api.infobuzzer.net
+Connection: Keep-Alive
+}.
+System.Net Information: 0 : [12484] SecureChannel#18380715::.ctor(hostname=api.infobuzzer.net, #clientCertificates=0, encryptionPolicy=RequireEncryption)
+System.Net Information: 0 : [12484] SecureChannel#18380715 - Left with 0 client certificates to choose from.
+System.Net Information: 0 : [12484] SecureChannel#18380715::.AcquireClientCredentials, new SecureCredential() (flags=(ValidateManual, NoDefaultCred, SendAuxRecord), m_ProtocolFlags=(Tls10Client), m_EncryptionPolicy=RequireEncryption)
+System.Net Information: 0 : [12484] AcquireCredentialsHandle(package = Microsoft Unified Security Protocol Provider, intent  = Outbound, scc     = System.Net.SecureCredential)
+System.Net Information: 0 : [12484] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = (null), targetName = api.infobuzzer.net, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [12484] InitializeSecurityContext(In-Buffer length=0, Out-Buffer length=120, returned code=ContinueNeeded).
+System.Net Information: 0 : [12484] InitializeSecurityContext(credential = System.Net.SafeFreeCredential_SECURITY, context = 25482617350:11ec2, targetName = api.infobuzzer.net, inFlags = ReplayDetect, SequenceDetect, Confidentiality, AllocateMemory, InitManualCredValidation)
+System.Net Information: 0 : [12484] InitializeSecurityContext(In-Buffers count=2, Out-Buffer length=0, returned code=Unsupported).
+System.Net Error: 0 : [12484] Exception in HttpWebRequest#41314985:: - The request was aborted: Could not create SSL/TLS secure channel..
+System.Net Error: 0 : [12484] Exception in HttpWebRequest#41314985::GetResponse - The request was aborted: Could not create SSL/TLS secure channel..
+System.Net Verbose: 0 : [12484] Entering HttpWebRequest#41314985::Abort()
+System.Net Error: 0 : [12484] Exception in HttpWebRequest#41314985:: - The request was aborted: The request was canceled..
+System.Net Verbose: 0 : [12484] Exiting HttpWebRequest#41314985::Abort() 
