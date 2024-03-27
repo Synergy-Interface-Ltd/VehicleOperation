@@ -3948,6 +3948,16 @@ Partial Class job_card
                 txt33.Text = ""
 
             End If
+
+            Dim txt111 As TextBox = GridView5.Rows(row.RowIndex).FindControl("supplier_name")
+            txt111.ReadOnly = False
+
+            Dim txt211 As TextBox = GridView5.Rows(row.RowIndex).FindControl("payment_date")
+            txt211.ReadOnly = False
+
+            Dim txt331 As TextBox = GridView5.Rows(row.RowIndex).FindControl("payment_amount")
+            txt331.ReadOnly = False
+
         Next
 
 
